@@ -1,8 +1,8 @@
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
-import Gallery from './components/Gallery';
 import About from './components/About';
 import Footer from './components/Footer';
+import NotionData from './components/NotionData';
 
 export default function App() {
   return (
@@ -12,7 +12,7 @@ export default function App() {
       <Navigation />
       <main className="relative z-10">
         <Hero />
-        <Gallery />
+        <NotionData />
         <About />
       </main>
       <Footer />
